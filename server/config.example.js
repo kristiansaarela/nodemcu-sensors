@@ -1,4 +1,11 @@
 module.exports = {
-	server_ip: '192.168.0.14',
-	server_port: 80,
+	server: {
+		url: '192.168.0.14',
+		port: 80,
+	},
+
+	couchdb: {
+		url: 'http://localhost:5984',
+		database: 'nodemcu-sensors',
+	}
 }

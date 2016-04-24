@@ -1,0 +1,23 @@
+{
+  "name": "nodemcu-sensors-server",
+  "version": "1.0.0",
+  "description": "backend for nodemcu",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kristiansaarela/nodemcu-sensors.git"
+  },
+  "author": "Kristian Saarela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristiansaarela/nodemcu-sensors/issues"
+  },
+  "homepage": "https://github.com/kristiansaarela/nodemcu-sensors#readme",
+  "dependencies": {
+    "moment": "latest",
+    "nano": "latest"
+  }
+}
